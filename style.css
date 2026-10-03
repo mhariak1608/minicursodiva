@@ -1,0 +1,53 @@
+:root {
+   --laranja: #ffc58f;
+   --rosa_bebe: #f5a4c7;
+   --texto: #131313;
+   --link : #063c49;
+   --fundo: #ecc5a0;
+   --vermelho: #Ff0000;
+}
+
+body {
+    font-family: Arial, Helvetica;
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+
+}
+
+h1,h2, h3 {
+    font-family : Arial, Helvetica;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--link);
+
+}
+
+a:hover {
+    color: var(--vermelho)
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background-color: var(--rosa_bebe);
+    border-radius: 20px;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 30px;
+
+}
